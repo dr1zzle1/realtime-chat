@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -14,10 +14,10 @@ function App() {
     return <Loader />;
   }
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <AppRouter />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
