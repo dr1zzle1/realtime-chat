@@ -1,0 +1,17 @@
+.messages {
+  width: 80%;
+  height: 70vh;
+  border: 2px solid gray;
+  border-radius: 4px;
+  overflowy: auto;
+  padding: 10px;
+}
+.message {
+  margin: 10;
+  padding: 7px;
+  font-family: 'Roboto', sans-serif;
+  width: fit-content;
+  background-color: #2bb9b9;
+  border-radius: 6px;
+  color: #fff;
+}

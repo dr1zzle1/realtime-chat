@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #272a35;
+  font-family: 'Roboto', serif;
+}
 .lds-ring {
   display: inline-block;
   position: relative;
