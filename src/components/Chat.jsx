@@ -37,6 +37,8 @@ const Chat = () => {
               className={s.message}
               style={{
                 marginLeft: user.uid === message.uid ? 'auto' : '10px',
+                marginBottom: '5px',
+                boxShadow: ' 0 4px 12px rgba(16, 16, 16, 0.18), 0 16px 20px rgba(16, 16, 16, 0.17)',
               }}>
               <Grid container alignItems="center">
                 <Avatar src={message.photoURL} />
